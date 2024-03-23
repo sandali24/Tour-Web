@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearl tour</title>
+    <link rel="stylesheet" href="firstpagestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  
+</head>
+<body>
+  <div class="nav" >
+    <a href="aboutus.html">About us</a>
+    <a href="sitemap.html">Site map</a>
+    <a href="comment.html">Query</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="shopping.html">Shop</a>
+    <a href="gallery.html">Gallery</a>
+    <a class="active" href="#Home page.html">Home</a>
+    <img src="log.png" alt="logo" height="65px" width="250px">
+</div>
+<br>
+<br>
+<div id="firstpart">
+  <br>
+<h1 class="firsth1">Sri Lanka Dream Vacations</h1>
+<h3 class="head">Your Guide to the Best Destinations</h3>
+<br><br><br><br><br><br><br><br><br><br>
+</div>
+
+<div id="secondpart">
+<br><br>
+      <h1 class="secondh1">Welcome to Sri Lanka</h1>
+      <p class="Pstyle">
+ 
+  We are thrilled that you have chosen to explore the many wonderful destinations that our region has to offer. Whether you are here to indulge in our vibrant culture, explore our beautiful scenery, or simply relax and unwind, we have something for everyone.<br>
+
+  Our page is designed to help you plan your trip and make the most of your time here. You'll find information about our top attractions, must-see landmarks,  and exciting events. 
+ 
+  Thank you for choosing to visit us, and we look forward to sharing our wonderful region with you!
+      </p>
+  
+  <br><br><br>
+  <div class="row container"> 
+    <div class="column">
+
+      <div class="image1">
+     <a href="festivals.html"> <img src="esala-perahera.jpg" style="width:100%" class="image"></a>
+      <div class="middle middle1">
+        <div class="text2">Festive</div>
+      </div>
+      </div>
+     
+      <div class="image2">
+      <a href="scenic.html"><img src="scenic.jpg.webp" style="width:100%" class="image"></a>
+      <div class="middle middle2">
+        <div class="text2">Scenic</div>
+        </div>
+      </div>
+     
+     
+     <div class="image3">
+     <a href="hotel..html"> <img  src="Sri-Lanka-Feature.jpg" style="width:100%" class="image"></a>
+      <div class="middle middle3">
+        <div class="text2">Hotels</div>
+        </div>
+     </div>
+    </div>
+
+    <div class="column">
+      <div class="image4">
+      <a href="wild.html"><img src="wild.jpg" style="width:100%" class="image"></a>
+      <div class="middle middle4">
+        <div class="text2">Wild</div>
+        </div>
+      </div>
+      
+      <div class="image5">
+      <img src="kithulgala.jpg" style="width:100%" class="image">
+      <div class="middle middle5">
+        <div class="text2">Adventures</div>
+        </div>
+      
+    </div>  
+  </div>
+  </div>
+
+
+  
+
+
+    
+ <br><br><br><br><br><br>
+ 
+<h3 class="h3">Popular Destinations</h3>
+<p class="Pstyle"><mark>Visited places by our customers</mark></p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade box">
+  <div class="numbertext">1 / 7</div>
+  <img src="9-Arch-Bridge.jpeg" style="width: 100%" >
+  <div class="text">Nine arch bridge</div>
+</div>
+
+<div class="mySlides fade box">
+  <div class="numbertext">2 / 7</div>
+  <img src="beach.jpg"  style="width: 100%">
+  <div class="text">Arugam bay beach</div>
+</div>
+
+<div class="mySlides fade box">
+  <div class="numbertext">3 / 7</div>
+  <img src="galle.jpg.webp" style="width: 100%" >
+  <div class="text">Galle fort</div>
+</div>
+
+<div class="mySlides fade box">
+  <div class="numbertext">4 / 7</div>
+  <img src="sigiriya.jpg" style="width: 100%">
+  <div class="text">Sigiriya</div>
+</div>
+
+
+<div class="mySlides fade box">
+  <div class="numbertext">5 / 7</div>
+  <img src="sri-pada-adam-s-peak-sri-lanka.jpg" style="width: 100%" >
+  <div class="text">Sri pada</div>
+</div>
+
+<div class="mySlides fade box">
+  <div class="numbertext">6 / 7</div>
+  <img src="temple.jpg" style="width: 100%">
+  <div class="text">Temple Of Tooth at Kandy</div>
+</div>
+
+<div class="mySlides fade box">
+  <div class="numbertext">7 / 7</div>
+  <img src="Yala-National-Park-1.jpg" style="width: 100%">
+  <div class="text">Yala national park</div>
+</div>
+
+<br>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+</div><br><br><br><br><br>
+
+<script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+  <br>
+  <br>
+
+
+<footer  >
+<div id="thirdpart" class="linkmail">
+<h3>Pearl travels</h3>
+ <p>Your Guide to the Best Destinations<br><Address>564, Main road<br>
+  Colombo-03<br>Srilanka<br>Contact details:<br>Phone :(+94)37 361 8181, (+94)77 742 6767<br>Email : <a  href="mailto:pearltravels@gmail.com"> pearltravels@gmail.com</a>  </Address></p>
+  
+  <ul class="socials">
+    <li><a href=https://www.facebook.com class="fa fa-facebook"></a></li>
+    <li><a href=https://www.instagram.com  class="fa fa-instagram"></a></li>
+    <li><a href=https://twitter.com  class="fa fa-twitter"></a></li>
+    
+</ul>
+
+</div>
+<div id="forthpart">
+  <p>Copyright &copy;2023 PearlTravels. designed by  <a href="mydetails.html">@Yanuja Thanabalasingam </a></p>
+</div>
+</footer>
+</body>
+</html>

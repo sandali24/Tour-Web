@@ -1,0 +1,121 @@
+body {
+  background-image: url('pamithbackground.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    margin: 0;
+}
+
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+img {
+  border: 1px solid #fefefe;
+  border-radius: 50%;
+  padding: 5px;
+  width: 20%;
+  margin: auto;
+  display: block;
+}
+
+#profileHEAD {
+  margin: auto;
+}
+
+fieldset {
+  width: 50%;
+  background-color: #65656592 ;
+  color: #ffffff;
+  font-family: 'Comfortaa', cursive;
+  margin: auto;
+  border-radius: 10%;
+}
+
+.innerfield {
+
+  width: 90%;
+}
+
+#profile {
+  width: 70%;
+  margin: auto;
+  }
+
+img:hover {
+  box-shadow: 0 0 0 8px #00000033 ;
+  transform: scale(1.1);
+}
+
+fieldset:hover {
+  box-shadow: 8px 8px 8px 8px #000000 ;
+}
+
+h2:hover {
+  box-shadow: 8px 8px 8px 8px #000000 ;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Comfortaa', cursive;
+  margin: auto;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonH {
+  background-color: #105116; /* Green */
+  border: none;
+  color: white;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 5px;  
+}
+
+.buttonH:hover {
+  box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.footer{
+  background-color: #5a5a5a;
+  height: 50px;
+  position: static;
+  width: 100%;
+}
+.footer p{
+  font-size: 20px;
+  color: #f2f2f2;
+  font-style: italic;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer a{
+  color: #f2f2f2;
+  font-size: 20px;
+  font-style: italic;
+}
+.footer a:hover{
+  color: black;
+}

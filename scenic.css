@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+}
+
+body {
+  background-image: url(hotbg3.avif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: rgb(48, 88, 131);
+  font-family: cursive;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(18, 77, 105);
+  font-family: cursive;
+}
+
+div.gallery {
+  border: 1px solid #5d5b5b;
+}
+
+div.gallery:hover {
+  border: 1px solid #edece7;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 250px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.desc a:hover {
+  color: rgb(123, 123, 191);
+}
+
+.responsive {
+  padding: 8px 8px;
+  float: left;
+  width: 24.999999%;
+  box-sizing: border-box;
+  background-color: #94c3ce;
+  border-radius: 9px;
+}
+.responsive a {
+  color: #5d5b5b;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.details {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 80%;
+  align-content: center;
+  margin: auto;
+  border-radius: 5%;
+}
+
+.details1 {
+  background-image: url(sigi2.jpg);
+  height: 800px;
+  opacity: 0.8;
+}
+.details2 {
+  background-image: url(nuwa7.jpg.avif);
+  height: 800px;
+  opacity: 0.8;
+}
+.details3 {
+  background-image: url(sri2.jpg.webp);
+  height: 800px;
+  opacity: 0.8;
+}
+.details4 {
+  background-image: url(una2.jpg);
+  height: 800px;
+  opacity: 0.8;
+}
+
+.details img {
+  padding-left: 35px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-right: 30px;
+  transition: transform 0.2s;
+  display: inline;
+}
+.details1 h2 {
+  padding-top: 30px;
+  padding-left: 35px;
+  color: #284a4e;
+  font-size: 40px;
+}
+.details1 p {
+  text-align: left;
+  font-size: 25px;
+  text-justify: 10px;
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 20px;
+  color: #242420;
+  font-family: "Ubuntu";
+  font-weight: 100;
+}
+
+.details2 h2 {
+  padding-top: 30px;
+  padding-left: 35px;
+  color: #284a4e;
+  font-size: 40px;
+}
+.details2 p {
+  text-align: left;
+  font-size: 25px;
+  text-justify: 10px;
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 20px;
+  color: #050504;
+  font-family: "Ubuntu";
+  font-weight: 100;
+}
+
+.details3 h2 {
+  padding-top: 30px;
+  padding-left: 35px;
+  color: #eaecec;
+  font-size: 40px;
+}
+.details3 p {
+  text-align: left;
+  font-size: 25px;
+  text-justify: 10px;
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 20px;
+  color: #e5ebeb;
+  font-family: "Ubuntu";
+  font-weight: 100;
+}
+
+.details4 h2 {
+  padding-top: 30px;
+  padding-left: 35px;
+  color: #6c2f06;
+  font-size: 40px;
+}
+.details4 p {
+  text-align: left;
+  font-size: 25px;
+  text-justify: 10px;
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 20px;
+  color: #2c1003;
+  font-family: "Ubuntu";
+  font-weight: 100;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.center a {
+  color: #edece7;
+}
+.center a:hover {
+  color: rgb(155, 186, 196);
+}
+
+.buttonH {
+  background-color: #252a3c; /* Green */
+  border: none;
+  color: white;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+.buttonH:hover {
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.footer {
+  background-color: #4b5e59;
+  height: 50px;
+  position: static;
+}
+.footer p {
+  font-size: 20px;
+  color: #f2f2f2;
+  font-style: italic;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer a {
+  color: #f2f2f2;
+  font-size: 20px;
+  font-style: italic;
+}
+.footer a:hover {
+  color: black;
+}

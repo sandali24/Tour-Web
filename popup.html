@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Popup</title>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <div class="container">
+            <button type="submit" class="btn" onclick="openPopup()">Confirm</button>
+            <div class="popup" id="popup">
+                <img src="popup.png">
+                <h2>Thank You!</h2>
+                <p>Your details has been successfully submited. Thanks!</p>
+                <a href="shopping.html"><button type="button" onclick="closePopup()">OK</button></a>
+            </div>
+        </div>
+        <script>
+            let popup = document.getElementById('popup');
+            function openPopup(){
+                popup.classList.add("open-popup");
+            }
+            function closePopup(){
+                popup.classList.remove("open-popup");
+            }
+        </script>
+        <div class="coontainer" style="position: relative; left: -38px; top: -360px;">
+            <div class="child">
+            <p>Copyright &copy;2023 Designed By <a href="Sandali.html">Sandali Siriwardana</a></p>
+        </div>
+        </div>
+    </body>
+</html>

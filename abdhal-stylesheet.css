@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #e8a8a8 0%, transparent 50%);
+  -linear-gradient: (to right, 39e6969 0%, transparent 50%);
+  background-size: fill;
+  opacity: 0.9;
+}
+
+.base-of-profile {
+  position: absolute;
+  width: 900px;
+  height: 550px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 100px 0px 0px 310px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.editor-photo {
+  float: left;
+  position: relative;
+  margin: 50px 10px 20px 30px;
+  width: 420px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.editor-photo:hover {
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+.editor-descriprion {
+  position: relative;
+  margin: 50px 20px 50px 510px;
+  width: 350px;
+  height: 450px;
+  color: #424242;
+  font-weight: bold;
+}
+
+.heading-of-profile {
+  font-size: 40px;
+  padding-top: 21px;
+  margin: 0px -200px -80px 634px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.editor-name {
+  font-size: 30px;
+  letter-spacing: 0;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.editor-name:hover {
+  color: #ce7070;
+  transition: 0.5s;
+  font-size: 35px;
+}
+
+.editor-title {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.list-of-task {
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+dd{
+  font-size: medium;
+  font-family: monospace;
+}
+
+.editor-icons p{
+  font-size: large;
+}
